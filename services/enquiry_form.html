@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Evos Solution</title>
+  <!-- CSS  -->
+  <link rel="icon" href="/images/logo.jpg">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Roboto" rel="stylesheet">
+  <link href="/css/materialize.css" rel="stylesheet">
+
+  <title>Career</title>
+</head>
+<body>
+  <!--navbar-->
+  <div class="navbar-fixed">
+    <nav class="" role="navigation" style="color: black;">
+      <div class="nav-wrapper">
+        <a id="logo-container" href="/index.html" class="brand-logo" style="font-size: 18px; color: black;"><div id="logo_tag" class="row valign-wrapper" style="font-size: 15px;"><img id="logo" class="circle responsive-img" src="/images/logo.jpg" alt="Evos Solutions logo" style="margin: 5px; display: inherit;   vertical-align: middle; width: 40px; height: 40px; border-radius: 50%;">Evos Solutions</div></a>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger" style="color: #26a69a;"><i class="material-icons" style="color:black;">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="/index.html" style="color: black;">Home</a></li>
+          <li class="active" ><a href="/services.html" style="color: black;">Services</a></li>
+          <li><a href="/industries.html" style="color: black;">Industries</a></li>
+          <li><a href="/insight.html" style="color: black;">Insights</a></li>
+          <li><a href="/career.html" style="color: black;">Career</a></li>
+          <li><a href="/contact.html" style="color: black;">Contact Us</a></li>
+          <li><a href="/about.html" style="color: black;">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <ul id="nav-mobile" class="sidenav">
+      <li><a href="/index.html">Home</a></li>
+      <li class="active"><a href="/services.html">Services</a></li>
+      <li><a href="/industries.html">Industries</a></li>
+      <li><a href="/insight.html">Insights</a></li>
+      <li><a href="/career.html">Career</a></li>
+      <li><a href="/contact.html">Contact Us</a></li>
+      <li><a href="/about.html">About Us</a></li>
+    </ul>
+    <nav class="blue">
+      <div class="nav-wrapper">
+        <div class="col s12 container">
+          <a href="/services.html" class="breadcrumb" style="color: black;"><u>Services</u> </a>
+          <a href="iot_solutions.html" class="breadcrumb" style="color: black;"><u>Enquiry Form</u> </a>
+        </div>
+      </div>
+    </nav>
+  </div><br>
+  <!--Page content-->
+  <div id="modal1" class="modal" style="opacity: 1;">
+    <div class="modal-content">
+      <div class="progress">
+        <div class="indeterminate"></div>
+      </div>
+      <span id="progress">Please Wait While We Submit The data</span>
+    </div>
+  </div>
+  <div align="center" id="confirm_text">
+    <div class="row">
+      <div class="col s6 offset-s3">
+        <div class="card green">
+          <div class="card-content">
+            <p class="white-text">Request Has been Successfully Submitted!</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div align="center" id="unconfirm_text">
+    <div class="row">
+      <div class="col s6 offset-s3">
+        <div class="card red">
+          <div class="card-content">
+            <p class="white-text">Request Has Not Been Submitted!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container center">
+    <h3 style="font-size: 30px;">FIll In The Details</h3>
+    <div class="input-field">
+      <input id="name" type="text" class="validate" required>
+      <label for="name">Full Name</label>
+    </div>
+    <div class="input-field">
+      <input id="email" type="email" class="validate" required>
+      <label for="email">E-Mail</label>
+    </div>
+    <div class="input-field">
+      <input id="no" type="text" class="validate" required>
+      <label for="no">Number</label>
+    </div>
+    <select id="Category_selector">
+      <option value="" disabled selected>Choose A Category</option>
+    </select>
+    <div class="input-field">
+      <textarea id="textarea1" class="materialize-textarea"></textarea>
+      <label for="textarea1">Enquiry About</label>
+    </div>
+    <button id="send_btn" type="reset" class="btn-floating pulse">Send</button>
+  </div><br><br><br><br><br><br><br><br>
+
+  <!--footer-->
+  <div class="footer-copyright">
+    <hr class="my-4"><br>
+    <div class="row" style="margin-left: 15px;">
+      <div  class="col s12 m4" >
+        <h6><u>Evos</u> <u>Solutions</u><button id="footer_open" class="pulse right" style="border-radius: 100%; border-color: black; display:block; background-color: white; align-self: auto;">-</button> </h6>
+        <div id="div_frow">
+          <ul style="line-height: 1.5;">
+            <li> <a href="/index.html">Home</a> </li>
+            <li> <a href="/services.html">Services</a> </li>
+            <li> <a href="/industries.html">Industries</a> </li>
+            <li> <a href="/insight.html">Insights</a> </li>
+            <li> <a href="/career.html">Career</a> </li>
+            <li> <a href="/contact.html">Contact-Us</a> </li>
+            <li> <a href="/about.html">About-Us</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col s12 m4" >
+        <h6><u>Services</u> <u>Offered</u><button id="footer_open1" class="pulse right" style="border-radius: 100%; border-color: black; display:block; background-color: white; align-self: auto;">-</button></h6>
+        <div id="div_frow1">
+          <ul style="line-height:1.5;">
+            <li> <a href="machine_learning.html">Machine Learning</a> </li>
+            <li> <a href="web_development.html">Web Development</a> </li>
+            <li> <a href="custom_software.html">Custom Software</a> </li>
+            <li> <a href="iot_solutions.html">IOT Solutions</a> </li>
+            <li> <a href="project_management.html">Project Management</a> </li>
+            <li> <a href="consulting_services.html">Consulting Services</a> </li>
+            <li> <a href="site_audit_and_seo.html">Site Audit And SEO</a> </li>
+            <li> <a href="ux_ui_services.html">UX/UI Services</a> </li>
+            <li> <a href="mobile_app_services.html">MobileApp Services</a> </li>
+            <li> <a href="crm_solutions.html">CRM Solutions</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <h6><u>Contact</u> <u>Address:</u><button id="footer_open2" class="pulse right" style="border-radius: 100%; border-color: black; display:block; background-color: white; align-self: auto;">-</button><br></h6>
+        <div id="div_frow2" style="line-height:1.5;">
+          Evos Solutions Pvt. Ltd.<br>
+          Plot No- A/318, Saheed Nagar, Bhubaneswar <br>
+          Odisha-751007, India <br>
+          Phone : 9437052454 <br>
+          E-mail : info@evossolutions.com <br>
+        </div>
+      </div>
+    </div><br>
+  </div>
+
+  <!--footer-->
+  <footer>
+    <div class="footer-copyright">
+      <hr class="my-4">
+      © 2018 <a class="brown-text text-lighten-3" href="http://evossolutions.com">Evos Solutions</a>
+      <a href="./terms_and_conditions.html">  Terms and Conditions</a>
+      <hr class="my-4">
+    </div>
+  </footer>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="/js/materialize.js"></script>
+  <script src="/js/init.js"></script>
+</body>
+</html>

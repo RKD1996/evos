@@ -1,0 +1,186 @@
+nav ul a,
+nav .brand-logo {
+  color: black;
+}
+#service_img{
+  height: 300px;
+  width: 300px;
+}
+#img_indus{
+  height: 300px;
+}
+#process{
+  text-align: center;
+}
+#font{
+  font-family: 'Roboto', sans-serif;
+}
+#font_h5{
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+}
+#step{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+#service_text{
+  font-family: 'Roboto', sans-serif;
+}
+#font_title{
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+#font_subtitle{
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  line-height: 2rem;
+}
+#serve{
+  padding-right: 115px;
+}
+#footer_open{
+  border-radius: 100%;
+  display: none;
+}
+#footer_open1{
+  border-radius: 100%;
+  display: none;
+}
+#footer_open2{
+  border-radius: 100%;
+  display: none;
+}
+#service_img{
+  height: 100px;
+  width: 180px;
+}
+.sidenav-trigger {
+  color: #26a69a;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 800px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #font_title{
+    font-size: 25px;
+  }
+  #font_subtitle{
+    font-size: 25px;
+  }
+  #footer_open{
+    border-radius: 100%;
+    border-color: black;
+    display:block;
+    background-color: white;
+    align-self: auto;
+  }
+  #footer_open1{
+    border-radius: 100%;
+    border-color: black;
+    display:block;
+    background-color: white;
+    align-self: auto;
+  }
+  #footer_open2{
+    border-radius: 100%;
+    border-color: black;
+    display:block;
+    background-color: white;
+    align-self: auto;
+  }
+  #font{
+    font-size: 14px;
+  }
+  #font_h5{
+    font-size: 14px;
+  }
+  #serve{
+    padding: inherit;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  #logo_tag{
+    font-size: 15px;
+  }
+  #enquiry{
+    display: none;
+  }
+  #Request{
+    align-items: center;
+  }
+  #Enquiry_Request{
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  #footer_open{
+    border-radius: 100%;
+    display: block;
+  }
+  #footer_open1{
+    border-radius: 100%;
+    display: block;
+  }
+  #footer_open2{
+    border-radius: 100%;
+    display: block;
+  }
+  #logo-container{
+    font-size: 15px;
+  }
+  #Enquiry_Request {
+    position:fixed;
+    left:0px;
+    bottom:50px;
+    height:15px;
+    width:100%;
+    display: run-in;
+    z-index: 2;
+  }
+
+  #hed{
+    font-size: 28px;
+  }
+  #logo{
+    display: inherit;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+#h_30{
+  font-size: 30px;
+}
+#logo{
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
